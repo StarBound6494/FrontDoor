@@ -1,0 +1,7 @@
+name: FrontDoor
+version: '1.0-RELEASE'
+main: net.starbound.frontdoor.FrontDoor
+api-version: 1.19
+prefix: FD
+authors: [ StarBound6494 ]
+description: A plugin to allow players joining a server to spawn at different locations based on what IP they use to connect.

@@ -23,8 +23,8 @@ public final class FrontDoor extends JavaPlugin {
 
         this.getLogger().log(Level.INFO, "Fetching Config..."); //load config file and default options check
         config = getConfig();
-        config.addDefault("isDevBuild", true);
-        config.addDefault("logPlayers", false);
+        config.addDefault("isDevBuild", false);
+        config.addDefault("logPlayers", true);
         config.options().copyDefaults(true);
         saveConfig();
         this.getLogger().log(Level.INFO, "Fetched Config.");

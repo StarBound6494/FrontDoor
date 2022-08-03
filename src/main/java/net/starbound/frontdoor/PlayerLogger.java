@@ -18,7 +18,7 @@ public class PlayerLogger {
 
     public static ArrayList<String> masterList;
     void generateSaveFile(){
-        File savepoint = new File(FrontDoor.getPlugin(FrontDoor.class).getDataFolder(), "playres.yml");
+        File savepoint = new File(FrontDoor.getPlugin(FrontDoor.class).getDataFolder(), "players.yml");
         FileConfiguration data = YamlConfiguration.loadConfiguration(savepoint);
 
         List<String> defaultList = Arrays.asList("Notch", "Jeb");
